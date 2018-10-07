@@ -18,7 +18,7 @@ class Movies():
 		self.createMoviesList()
 
 	def createMoviesList(self):
-		file = open("testfile.txt", "r")
+		file = open("moviedata.txt", "r")
 
 		for line in file:
 
